@@ -13,16 +13,16 @@
 # -------- Options ----------
 
 set(OCPN_TEST_REPO
-    "opencpn/dr-alpha"
+    "mike-rossiter/dr-alpha"
     CACHE STRING "Default repository for untagged builds"
 )
 set(OCPN_BETA_REPO
-    "opencpn/dr-beta"
+    "mike-rossiter/dr-beta"
     CACHE STRING
     "Default repository for tagged builds matching 'beta'"
 )
 set(OCPN_RELEASE_REPO
-    "opencpn/dr-prod"
+    "mike-rossiter/dr-prod"
     CACHE STRING
     "Default repository for tagged builds not matching 'beta'"
 )
